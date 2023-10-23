@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#define LIN 200
-#define COL 60
+#define LIN 40
+#define COL 100
 #define minimo 5
 
 char nome[LIN][COL];

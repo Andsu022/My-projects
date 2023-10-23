@@ -21,7 +21,7 @@
 		
 		
 		printf("\nDigite quantas passagens sao: ");
-			scanf("%i", &num);
+			scanf("%d", &num);
 		system("cls");
 		setbuf(stdin,NULL);
 		printf("\n|----------MENU------------|");
@@ -38,7 +38,7 @@
 		printf("\n|--------------------------|");
 		printf("\nOBS: ATIVAR TECLA CAPS LOCK ANTES DE SELECIONAR !");
 		printf("\nEscolha um destino: ");
-			scanf("%c", &passagem);
+			scanf("%s", &passagem);
 		
 		system("cls");
 			switch (passagem){
@@ -138,7 +138,7 @@
 					printf("\n| O preco eh R$ %i,00.", preco);
 					printf("\n|---------------------|");
 				break;
-				system('cls');
+				system("cls");
 
 				default: 
 					printf("\nDesculpe, opcao invalida !\n");

@@ -20,6 +20,7 @@ float conversao, cotacao;
 			printf("\n|--------------|");
 			printf("\nEscolha uma opcao: ");
 				scanf("%d", &opc);
+
 			system("cls");
 		
 			switch(opc){
